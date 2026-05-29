@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background:
+    radial-gradient(circle at 0 0, #93b6fb, transparent),
+    radial-gradient(circle at 100% 0, #fad0c4, transparent),
+    radial-gradient(circle at 0 100%, #fbc2eb, transparent),
+    radial-gradient(circle at 100% 100%, #a18cd1, transparent);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100dvh;
+  padding: 82px 0 0;
+}
+
+dd {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.custom-card {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}

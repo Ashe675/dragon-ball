@@ -1,0 +1,11 @@
+<h3>{{ listName() }}</h3>
+<ul class="list-group">
+    @for(character of characters(); track character.id){
+    @if(character.power > 500){
+    <li class="list-group-item">
+        <strong>{{ character.name }}</strong> - Poder de pelea: <strong [class.text-danger]="character.power > 8000"
+            [class.text-primary]="character.power <= 8000">{{ character.power }}</strong>
+    </li>
+    }
+    }
+</ul>
